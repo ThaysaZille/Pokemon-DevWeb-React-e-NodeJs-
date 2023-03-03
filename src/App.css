@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.start {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card {
+  background-color: #eaeaea;
+  border-radius: 10px;
+  border: 1px solid #8e8e8e;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 8.8cm;
+  width: 6.3cm;
+  margin-top: 150px;
+  margin-left: 650px;
+
+}
+
+.card-header {
+  text-align: center;
+  font-size: 12px;
+  font-weight:lighter;
+}
+.card-header #name {
+  opacity: 0.4;
+  text-shadow:  0 2px 1px #8e8e8e;
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-header img {
+  max-width: 100%;
+  height: 110px;
+}
+
+.card-body {
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #8e8e8e;
+  border-radius: 5px;
+  position: fixed;
+  padding: 5px 5px 5px 5px;
+  left: 659px;
+  width: 14.2%;
+  height: 17%;
+  display: flex;
+}
+
+.label-container {
+  font-size: 12px;
+  width: 80px;
+  margin-left: 23px;
+  font-style: 10px;
+}
+
+.card-body .col-1 p {
+  font-size: 12px;
+  line-height: 1;
+  font-weight:lighter;
+}
+
+.card-footer {
+  margin-top: 5px;
+  text-align: center;
+  position: fixed;
+  left: 725px;
+  bottom: 235px;
+}
+
+.out {
+  position: fixed;
+  left: 880px;
+}
